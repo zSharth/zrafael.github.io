@@ -6,8 +6,10 @@ body {
     background-image: url("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
     background-size: cover; 
     background-repeat: no-repeat;
-    background-attachment: fixed; /
+    background-attachment: fixed; 
+    
   }
+  
   
   
   /* Estilos del navbar */
@@ -46,8 +48,16 @@ body {
     font-size: 3rem;
   }
   
+  h2 { 
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+
+
+  }
+
   .header p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
   }
   
@@ -121,18 +131,19 @@ body {
   
   .about p {
     color: #f0eeee;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
   }
   
   .about ul {
     list-style: disc;
     margin-left: 2rem;
+    
   }
   
   .about li {
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
   }
 
