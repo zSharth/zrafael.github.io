@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&family=Roboto:wght@300;500&display=swap');   
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+h4, h5, h6, p{
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+
+.precio { font-size: 16px;
+    font-weight: 100;
+    color: #707070;
+
+}
+
+nav {
+    background-color: #28A745;
+
+}
+
+nav a img {
+    width: 150px;
+}
+
+nav .navbar-collapse { 
+    justify-content: end;
+    color: white;
+}
+
+.card .direction {
+    display: flex;
+}
+
+.card .price {
+    display: flex;
+    justify-content: end;
+}
+
+.card .price h3 {
+    color: #28A745;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form { 
+    background-color: #28A745;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+}
+footer img {
+    width: 150px;
+
+
+}
+
+@media (max-width:1080px)
+{
+    .banana{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

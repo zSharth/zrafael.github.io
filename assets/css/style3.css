@@ -1,0 +1,89 @@
+    /* google-font */
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Raleway', sans-serif;        
+    }
+
+    h1 { 
+
+        font-weight: 500;
+        font-size: 50px;
+
+    }
+
+   h4 {
+        font-weight: 300px;
+        font-size: 25px;
+    }
+    
+    header {
+        text-align: center;
+        background-color: #000000;
+        padding: 15px;
+        color: white;
+
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    article {
+        display: flex;
+        background-color: #000000;
+        margin-top: -10px;
+        color: white;
+        
+        
+    }
+
+    article .info {
+        padding: 150px;
+        padding-left: 15%;
+        padding-right: 30%;
+        justify-content: center;
+
+    }
+
+    article img {
+       width: 500px;
+       padding-right: 200px;
+    
+}   
+
+    .iconos { 
+       background-color: #1E1A13;
+       color: white;
+       padding: 30px;
+       text-align: center;
+       
+    }
+
+    .iconos .logos { 
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px;
+        text-align: center;
+            
+    }
+
+    .galeria {
+        background-color: black;
+        display: flex;
+        padding: 50px;
+        justify-content: center;
+    }
+
+    .galeria img {
+        width: 315px;
+        padding: 10px;
+    }
+
+    footer { 
+    background-color: #1E1A13;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    
+    }
