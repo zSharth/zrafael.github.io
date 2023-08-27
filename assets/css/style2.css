@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; /
+  }
+  
+  
+  /* Estilos del navbar */
+  .navbar {
+    color: #ffffff;
+    padding: 1rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ddd;
+  }
+  
+  /* Estilos del header */
+  .header {
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  /* Estilos de la sección de proyectos */
+  .proyectos {
+    padding: 5rem 0;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    color: #333;
+    margin: 1rem 0;
+  }
+  
+  /* Estilos de los botones "Ver Proyecto" */
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s;
+  }
+  
+  .btn-azul {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .btn-verde {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    transform: translateY(-3px);
+
+  }
+
+  .about {
+    padding: 5rem 0;
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    color: #f0eeee;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about ul {
+    list-style: disc;
+    margin-left: 2rem;
+  }
+  
+  .about li {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  footer  { 
+    text-align: center;
+    color: #330505;
+    
+  }
+  
+  footer img {
+    width: 120px;
+  }
