@@ -73,9 +73,9 @@ body {
   }
   
   .project {
-    background-color: #fff;
+    background-color: #b4929271;
     padding: 1.5rem;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
@@ -85,8 +85,9 @@ body {
   }
   
   .project h3 {
-    color: #333;
+    color: #cfcaca;
     margin: 1rem 0;
+    text-align: center;
   }
   
   /* Estilos de los botones "Ver Proyecto" */
@@ -97,11 +98,13 @@ body {
     text-decoration: none;
     font-weight: bold;
     transition: transform 0.2s;
+    
   }
   
   .btn-azul {
     background-color: #3498db;
     color: #fff;
+    
   }
   
   .btn-verde {
@@ -111,6 +114,8 @@ body {
   
   .btn:hover {
     transform: translateY(-3px);
+    text-align: center
+    
 
   }
 
