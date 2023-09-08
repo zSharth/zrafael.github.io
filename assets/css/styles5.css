@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-family: "Cabin", sans-serif;
+  box-sizing: border-box;
+}
+body h1,
+p,
+strong {
+  font-size: 1.8rem;
+}
+.container {
+  display: flex;
+  background-color: rgb(240, 240, 240);
+}
+.primer-contacto {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1.5em 3.8em 1.5em 2em;
+  border: solid 1px #bcb7da;
+  border-bottom-color: #c2cae4;
+  justify-content: space-between;
+}
+.nombre-contacto > img {
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+}
+.nombre-contacto {
+  display: flex;
+  align-items: center;
+}
+
+.status > p {
+  color: rgb(245, 241, 241);
+}
+.status {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8em;
+}
+.sidebar {
+  flex-basis: 400px;
+  border: solid 1px #aac3d8;
+  min-height: 100vh;
+  background-color: rgb(161, 182, 196);
+}
+.perfil-menu {
+  display: flex;
+  align-items: start;
+  gap: 2em;
+}
+.perfil-menu a:visited {
+  color: #dadada;
+}
+.perfil-menu a:active {
+  opacity: 30%;
+}
+.perfil-menu a {
+  color: inherit;
+}
+.actividad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1em;
+  gap: 0.1em;
+}
+.nuevo-chat button {
+  background-color: rgb(187, 181, 202);
+  color: rgb(58, 54, 54);
+  padding: 0.5em 1.7em 0.5em 1.7em;
+  font-size: 3rem;
+}
+.nuevo-chat > a:hover {
+  opacity: 50%;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 4em;
+  border: solid 1px #e8ebe4;
+  border-bottom-color: #bec1bb;
+}
+.chats img {
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+}
+
+.chat1,
+.chat2,
+.chat3,
+.chat4,
+.chat5,
+.chat6,
+.chat7,
+.chat8 {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  gap: 2em;
+  border: solid 1px #e8ebe4;
+  border-bottom-color: #bec1bb;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 2em;
+}
+.menu h1 {
+  font-size: 6em;
+}
+
+.menu img {
+  width: 350px;
+}
