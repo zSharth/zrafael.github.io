@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: linear-gradient(
+    to top,
+    #d5d4d0 0%,
+    #d5d4d0 1%,
+    #5ea7b9 31%,
+    #3f556e 75%,
+    #313341 100%
+  );
+}
+.container {
+  display: grid;
+  grid-template-columns: 200px 4fr 1fr;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "sidebar main section"
+    "footer footer footer";
+}
+
+/*APARTADO BARRA DE NAVEGACIÓN*/
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(247, 245, 245);
+  padding: 1.3rem 3rem;
+  background-image: linear-gradient(to right, #393d3f 0%, rgb(5, 49, 61) 100%);
+  box-shadow: -3px 7px 10px rgb(243, 3, 3);
+}
+.navbar__search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.navbar-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.navbar__placeholder {
+  display: block;
+  height: 2rem;
+  text-transform: uppercase;
+}
+/*APARTADO BARRA LATERAL*/
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  flex-direction: column;
+  min-height: 100vh;
+  grid-area: sidebar;
+}
+.sidebar__title {
+  padding: 3rem 0;
+  font-weight: 700;
+}
+.sidebar__content {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar__link {
+  color: rgb(222, 223, 216);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 1rem 0;
+}
+.sidebar__link:hover {
+  opacity: 50%;
+}
+/*APARTADO MENU PRINCIPAL*/
+.main {
+  grid-area: main;
+}
+.main__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 340px));
+  margin: 3rem 0rem;
+  justify-content: center;
+  gap: 3rem;
+}
+.main__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(178, 209, 214);
+  text-align: center;
+  padding: 0.3rem;
+  border-radius: 10px;
+  box-shadow: 5px 7px 10px rgba(64, 84, 85, 0.315);
+}
+.main__card__img {
+  width: 100%;
+  border-radius: inherit;
+  height: 225px;
+  object-fit: cover;
+  box-shadow: 5px 7px 10px rgba(143, 3, 3, 0.315);
+}
+.main__card__title {
+  margin: 1rem 0;
+}
+.main__card__descripción {
+  border-top: 1px solid rgb(151, 9, 9);
+  padding: 1.5rem 0;
+}
+.main__card__precio {
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+}
+.main__card__link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: #000000;
+  padding: 0.4rem 2rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.main__card__link:hover {
+  background-color: rgb(65, 115, 138);
+  color: #000000;
+  font-weight: 700;
+}
+
+/*APARTADO SECCIÓN DERECHA*/
+.right__section {
+  grid-area: section;
+}
+.right__section__cards {
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+.right__section__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #466b66;
+  text-align: center;
+  width: 270px;
+  padding: 0.3rem;
+  border-radius: 10px;
+  box-shadow: 5px 7px 10px rgba(230, 35, 9, 0.315);
+}
+.right__section__card__title {
+  margin: 1rem 0;
+  color: #fff;
+  padding: 0 1rem;
+}
+.right__section__card__img {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+.right__section__card__link {
+  display: block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #000000;
+  background-color: #fff;
+  padding: 0.4rem 1.3rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.right__section__card__link:hover {
+  opacity: 50%;
+}
+
+.right__section__card--2 {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%
+  );
+  margin-top: 3rem;
+}
+/*APARTADO FOOTER*/
+.footer {
+  grid-area: footer;
+  background-image: linear-gradient(to right, #458183 20%, #466c85 100%);
+  color: white;
+  padding: 1.3rem 0;
+  box-shadow: -3px -3px 15px rgb(255, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__first__section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+.footer__payment__method {
+  display: flex;
+  gap: 1rem;
+  margin-left: 3rem;
+  align-items: center;
+}
+.footer__second__section {
+  padding-right: 3rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.footer__second__section__link:hover {
+  opacity: 50%;
+}
